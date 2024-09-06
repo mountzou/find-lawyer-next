@@ -1,0 +1,208 @@
+.lawyer-card {
+  border: 1px solid #a3a3a3 !important;
+  border-radius: 20px !important;
+  background-color: white !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.lawyer-profile-image-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.lawyer-profile-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: none;
+  filter: grayscale(100%);
+}
+
+.lawyer-card-title a {
+  text-decoration: none;
+  color: #3f3f3f;
+  display: block;
+}
+
+.lawyer-card-subtitle {
+  font-size: 0.8rem !important;
+  font-weight: 400 !important;
+}
+
+.specialties-container {
+  text-align: left;
+  height: 130px;
+  overflow-y: auto;
+  justify-content: center !important;
+}
+
+.specialty-badge {
+  font-size: 0.75rem !important;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #333;
+  color: #333;
+  border-radius: 35px;
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  height: 80px;
+  overflow-y: auto;
+  justify-content: center;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.75rem !important;
+}
+
+.single-address,
+.single-phone {
+  margin-bottom: 5px;
+}
+
+.card-background {
+  border-radius: 25px !important;
+}
+
+.lawyer-card-grade-dikigoros_par_efetais {
+  background-color: #d5f6edee !important;
+}
+
+.lawyer-card-grade-dikigoros_par_areio_pago {
+  background-color: #e4dbfaee !important;
+}
+
+.lawyer-card-grade-dikigoros_para_protodikais {
+  background-color: #ffe1ccda !important;
+}
+
+.lawyer-card-icons {
+  margin-right: 8px;
+  margin-left: 8px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.card-header-container {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.card-header-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.lawyer-grade {
+  font-family: var(--primary-font) !important;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.social-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.social-icon {
+  font-size: 0.9rem;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+
+.lawyer-profile-image {
+  width: 120px;
+  height: 120px;
+}
+
+.card-background {
+  padding: 15px;
+}
+
+.heading-full-line {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.heading-full-line::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #333;
+  margin-left: 15px;
+}
+
+.blog-post-card {
+  border: none !important;
+}
+
+.lang-flag {
+  filter: grayscale(40%);
+}
+
+.blog-post-card-lawyer-card-grade-dikigoros_par_efetais {
+  background-color: #d5f6edde !important;
+}
+
+.blog-post-excerpt {
+  font-size: 0.85rem !important;
+}
+
+.blog-post-lawyer-title {
+  font-size: 1.2rem !important;
+  color: #333 !important;
+  text-decoration: none !important;
+}
+
+@media (max-width: 767px) {
+
+  .heading-full-line {
+    margin-top: 20px;
+  }
+
+  .contact-info-container {
+    margin-top: 20px;
+  }
+
+}
