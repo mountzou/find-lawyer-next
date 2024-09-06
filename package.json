@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "npm install @mui/material @emotion/react @emotion/styled bootstrap-icons react-select react-bootstrap bootstrap"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
