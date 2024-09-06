@@ -21,9 +21,6 @@ const languageToCountryCode = {
 };
 
 export default function LawyerDetailsClient({ lawyer, slugName }) {
-  if (!lawyer) {
-    return <LoadingSpinner />;
-  }
 
   const gradeClass = lawyer.lawGrade
     ? `lawyer-card-grade-${lawyer.lawGrade.toLowerCase()}`
