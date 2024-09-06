@@ -7,20 +7,23 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "npm install @mui/material @emotion/react @emotion/styled bootstrap-icons react-select react-bootstrap bootstrap"
+    "postinstall": "npm install react-country-flag axios showdown @mui/material @emotion/react @emotion/styled bootstrap-icons react-select react-bootstrap bootstrap"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^6.0.2",
+    "axios": "^1.7.7",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "next": "14.2.7",
     "react": "^18",
     "react-bootstrap": "^2.10.4",
+    "react-country-flag": "^3.1.0",
     "react-dom": "^18",
     "react-icons": "^5.3.0",
-    "react-select": "^5.8.0"
+    "react-select": "^5.8.0",
+    "showdown": "^2.1.0"
   },
   "devDependencies": {
     "eslint": "^8",
